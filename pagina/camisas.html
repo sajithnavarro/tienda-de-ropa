@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body class="verde">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Tienda de Ropa</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contenido1.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobrenosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="iniciosesion.html">Iniciar sesion</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<div class="container my-5">
+    <section id="productos" class="mb-5">
+        <label for="productos"></label>
+        <select name="productos" id="productos" onchange="location = this.value;">
+            <option value="" >Selecciona un producto</option>
+            <option value="camisas.html">Sueter</option>
+            <option value="accesorios">Accesorios</option>
+            <option value="conjunto">Deportivo</option>
+            <option value="bermudas">Bermudas</option>
+            <option value="jean">Jeans</option>
+            <option value="gorras">Gorras</option>
+        </select><br>
+
+        
+        <h2 class="h3 mb-4">Productos</h2>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/camisa1.png.jpeg" class="card-img-top" alt="Cojunto Nike" height="475px"  >
+                    <div class="card-body" style="height: 150px;">
+                        <h5 class="card-title">Sueter Amiri</h5>
+                        <p class="card-text"> Sueter sin cuello</p>
+                        <p class="card-text"><strong>Precio: $65.000</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/camisa2.png.jpeg" class="card-img-top" alt="Pantalones Jeans" height="475px">
+                    <div class="card-body" style="height: 150px;">
+                        <h5 class="card-title">Sueter Lacoste</h5>
+                        <p class="card-text">Sueter sin cuello</p>
+                        <p class="card-text"><strong>Precio: $60.000</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/camisa3.png.jpeg" class="card-img-top" alt="Sueter Hugo Boss" height="475px">
+                    <div class="card-body" style="height: 150px;">
+                        <h5 class="card-title">Sueter Lacoste</h5>
+                        <p class="card-text">Sueter sin cuello</p>
+                        <p class="card-text"><strong>Precio: $65.000</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/camisa4.png.jpeg" class="card-img-top" alt="Cojunto Nike" height="475px"  >
+                    <div class="card-body" style="height: 150px;">
+                        <h5 class="card-title">Sueter Nike</h5>
+                        <p class="card-text">Sueter sin cuello</p>
+                        <p class="card-text"><strong>Precio: $65.000</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/camisa5.png.jpeg" class="card-img-top" alt="Pantalones Jeans" height="475px">
+                    <div class="card-body" style="height: 150px;">
+                        <h5 class="card-title">Sueter Polo Club</h5>
+                        <p class="card-text">Sueter de cuello</p>
+                        <p class="card-text"><strong>Precio: $75.000</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/camisa6.png.jpeg" class="card-img-top" alt="Sueter Hugo Boss" height="475px">
+                    <div class="card-body" style="height: 150px;">
+                        <h5 class="card-title">Sueter Lacoste </h5>
+                        <p class="card-text">Sueter de cuello</p>
+                        <p class="card-text"><strong>Precio: $75.000</strong></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/camisa7.png.jpeg" class="card-img-top" alt="Cojunto Nike" height="475px"  >
+                    <div class="card-body" style="height: 150px;">
+                        <h5 class="card-title">Sueter Lacoste</h5>
+                        <p class="card-text">Sueter con cuello</p>
+                        <p class="card-text"><strong>Precio: $75.000</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/camisa8.png.jpeg" class="card-img-top" alt="Pantalones Jeans" height="475px">
+                    <div class="card-body" style="height: 150px;">
+                        <h5 class="card-title">Sueter Lacoste</h5>
+                        <p class="card-text">Sueter con cuello </p>
+                        <p class="card-text"><strong>Precio: $75.000</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/camisa9.png.jpeg" class="card-img-top" alt="Sueter Hugo Boss" height="475px">
+                    <div class="card-body" style="height: 150px;">
+                        <h5 class="card-title">Sueter Amiri</h5>
+                        <p class="card-text">Sueter con cuello</p>
+                        <p class="card-text"><strong>Precio: $75.000</strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/camisa10.png.jpeg" class="card-img-top" alt="Cojunto Nike" height="475px"  >
+                    <div class="card-body" style="height: 150px;">
+                        <h5 class="card-title">Sueter Lacoste</h5>
+                        <p class="card-text">Sueter con cuello</p>
+                        <p class="card-text"><strong>Precio: $75.000</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/camisa11.png.jpeg" class="card-img-top" alt="Pantalones Jeans" height="475px">
+                    <div class="card-body" style="height: 150px;">
+                        <h5 class="card-title">Sueter Tommy Hilfiger</h5>
+                        <p class="card-text">Sueter sin cuello</p>
+                        <p class="card-text"><strong>Precio: $75.000</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/camisa12.png.jpeg" class="card-img-top" alt="Sueter Hugo Boss" height="475px">
+                    <div class="card-body" style="height: 150px;">
+                        <h5 class="card-title">Sueter Burberry</h5>
+                        <p class="card-text">Sueter con cuello</p>
+                        <p class="card-text"><strong>Precio: $75.000</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body class="verde">
